@@ -60,14 +60,14 @@ states, while SpikeMonitor objects record spike times of neurons.
 
 Subsequently, the recorded data is analyzed to understand network dynamics,
 including firing rates of neurons and the evolution of synaptic weights under STDP.
-Finally, a comparison is made by training a Convolutional Neural Network (CNN)
+Finally, a comparison is made by training an Artificial Neural Network (ANN)
 model on the same dataset, recording execution times, and comparing the time
-taken for STDP in SNN with Forward and Backward Propagation in CNN.
+taken for STDP in SNN with Forward and Backward Propagation in ANN.
 
 ## Results
 This project demonstrate the effectiveness of the developed Spiking Neural
 Network (SNN) model with Spike-Timing Dependent Plasticity (STDP) compared to
-a traditional Convolutional Neural Network (CNN) on the Iris dataset.
+a traditional Artificial Neural Network (ANN) on the Iris dataset.
 
 Analysis reveals dynamic firing rates and synaptic weight evolution in the SNN,
 showcasing its biological realism.
@@ -75,11 +75,11 @@ showcasing its biological realism.
 Spike times and membrane voltages offer insights into neuron activations and
 STDP-driven plasticity.
 
-Execution time comparison between SNN with STDP and CNN demonstrated the
+Execution time comparison between SNN with STDP and ANN demonstrated the
 computational efficiency of the SNN approach. The comparison captured in the
 form of graphs is as follows:
 
-CNN
+ANN
 
 ![image](https://github.com/user-attachments/assets/43e98cb7-156d-4771-9cec-11877b9fa663)
 
